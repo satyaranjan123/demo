@@ -3,7 +3,9 @@
 
 public class ArrayExamples
 {	public static void main(String[] args)
-	{	int[] list = {1, 2, 3, 4, 1, 2, 3};
+	{	
+	System.out.println("Hi Raka");
+	int[] list = {1, 2, 3, 4, 1, 2, 3};
 		findAndPrintPairs(list, 5);
 		bubblesort(list);
 		showList(list);
