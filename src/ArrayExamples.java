@@ -28,7 +28,7 @@ public class ArrayExamples
 	// post: return index of minimum element of array
 	public static int findMin(int[] list)
 	{	assert list != null && list.length > 0 : "failed precondition";
-
+		System.out.println("fetch line");
 		int indexOfMin = 0;
 		for(int i = 1; i < list.length; i++)
 		{	if(list[i] < list[indexOfMin])
